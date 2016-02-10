@@ -27,13 +27,13 @@
         <dependency>
             <groupId>org.apache.deltaspike.modules</groupId>
             <artifactId>deltaspike-test-control-module-impl</artifactId>
-            <version>1.5.0</version>
+            <version>${version.deltaspike}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.deltaspike.cdictrl</groupId>
             <artifactId>deltaspike-cdictrl-weld</artifactId>
-            <version>1.5.0</version>
+            <version>${version.deltaspike}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -50,5 +50,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
+        <version.deltaspike>1.5.2</version.deltaspike>
     </properties>
 </project>
